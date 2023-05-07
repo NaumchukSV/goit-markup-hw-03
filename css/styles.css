@@ -176,7 +176,6 @@ img {
     background-color: var(--accent-color);
 }
 
-
 .section-title{
     font-weight: 700;
     font-size: 36px;
@@ -332,7 +331,6 @@ img {
     border: 1px solid transparent;
 }
 
-
 .project-list{
     display: flex;
     flex-wrap: wrap;
@@ -345,7 +343,6 @@ img {
     border-top: none;
 }
 .project-list-item{
-    
     width: calc((100% - 48px) / 3);
 }
 .project-title {
