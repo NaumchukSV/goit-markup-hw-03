@@ -66,6 +66,8 @@ img {
     display: flex;
     align-items: center;
     border-bottom: 1px solid var(--border-color);
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .page-header-container {
@@ -115,7 +117,7 @@ img {
     letter-spacing: var(--letter-spacing);
     color: var(--secondary-text-color);
 }
-.menu-item{
+.menu-link{
     padding: 24px 0;
 }
 .contacts{
@@ -277,13 +279,9 @@ img {
 }
 .footer-logo-link{
     margin-bottom: 16px;
-    display: block;
+    display: inline-block;
 }
-.footer-container{
-    display: flex;
-    align-items: left;
-    flex-direction: column;
-}
+
 .footer-text{
     font-size: var(--font-size-text);
     line-height: var(--line-height);
