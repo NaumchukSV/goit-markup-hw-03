@@ -116,8 +116,7 @@ img {
     color: var(--secondary-text-color);
 }
 .menu-item{
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 0;
 }
 .contacts{
     font-style: normal;
@@ -277,8 +276,8 @@ img {
     padding-bottom: 100px;
 }
 .footer-logo-link{
-    display: inline-block;
     margin-bottom: 16px;
+    display: block;
 }
 .footer-container{
     display: flex;
